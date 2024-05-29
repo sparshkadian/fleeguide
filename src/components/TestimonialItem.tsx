@@ -10,10 +10,10 @@ const TestimonialItem = ({ testimonial }: { testimonial: testimonialType }) => {
   };
 
   return (
-    <div className='flex flex-col sm:flex-row bg-white h-[430px] sm:h-[300px] shadow-xl w-[340px] sm:w-[500px] md:w-[700px] rounded-[30px] hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer'>
-      <div className='h-[180px] sm:h-[300px] sm:w-[200px] md:w-[300px] relative'>
+    <div className='flex flex-col sm:flex-row bg-white h-[430px] sm:h-[300px] shadow-xl w-[340px] sm:w-[500px] md:w-[800px] rounded-[30px] hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer'>
+      <div className='h-[180px] sm:h-[300px] sm:w-[200px] md:w-[350px] relative'>
         {!isImageLoaded && (
-          <div className='absolute inset-0 bg-gray-300 animate-pulse rounded-t-[30px] sm:rounded-tl-[30px] sm:rounded-bl-[30px] sm:rounded-t-[0px]'></div>
+          <div className='absolute inset-0 bg-gray-300  rounded-t-[30px] sm:rounded-tl-[30px] sm:rounded-bl-[30px] sm:rounded-t-[0px]'></div>
         )}
         <img
           src={testimonial.banner}

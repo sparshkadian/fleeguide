@@ -50,9 +50,9 @@ const Testimonials = () => {
           <AnimatePresence initial={false}>
             <motion.div
               key={testimonials[currentIndex].id}
-              initial={{ opacity: 0, x: 150 }}
+              initial={{ opacity: 0, x: 250 }}
               animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -150 }}
+              exit={{ opacity: 0, x: -250 }}
               transition={{ duration: 0.5, ease: 'easeInOut' }}
               className='absolute'
             >
